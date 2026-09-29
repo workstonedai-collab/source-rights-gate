@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "id": "fictional-internal",
+      "name": "Fictional internal example",
+      "feed_url": "https://example.org/feed.xml",
+      "selection": "accepted",
+      "rights": {
+        "review_status": "approved_internal",
+        "fetch_metadata": true,
+        "fetch_fulltext": false,
+        "store_fulltext": false,
+        "summarize": true,
+        "public_title_link": false,
+        "public_summary": false
+      },
+      "operations": {"enabled": true, "environments": ["internal"]}
+    },
+    {
+      "id": "fictional-public",
+      "name": "Fictional public example",
+      "feed_url": "https://example.net/feed.xml",
+      "selection": "accepted",
+      "rights": {
+        "review_status": "approved_public",
+        "fetch_metadata": true,
+        "fetch_fulltext": false,
+        "store_fulltext": false,
+        "summarize": true,
+        "public_title_link": true,
+        "public_summary": true
+      },
+      "operations": {"enabled": true, "environments": ["internal", "public"]}
+    },
+    {
+      "id": "fictional-pending",
+      "name": "Fictional pending example",
+      "feed_url": "https://example.com/pending.xml",
+      "selection": "pending",
+      "rights": {
+        "review_status": "pending",
+        "fetch_metadata": false,
+        "fetch_fulltext": false,
+        "store_fulltext": false,
+        "summarize": false,
+        "public_title_link": false,
+        "public_summary": false
+      },
+      "operations": {"enabled": false, "environments": []}
+    }
+  ]
+}
