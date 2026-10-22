@@ -1,5 +1,7 @@
 # 信息来源权限与采集规则校验模板 | Source Rights Gate
 
+**项目状态 / Project status:** 离线规则模板；许可状态由使用者录入，程序不解释条款或授予权利。 / Offline policy template. Permission status is supplied by the operator; the program does not interpret terms or grant rights.
+
 能打开一个网页，不代表可以抓取全文、长期存储、制作摘要或公开展示。这个离线规则模板帮助采集与内容团队把**来源选择、权利复核、运行开关和具体用途**分别记录，在执行某一步前查询是否允许，并看到拒绝原因。
 
 Being able to open a webpage does not establish permission to collect full text, retain it, summarize it, or display it publicly. This offline policy template helps collection and content teams keep **source selection, rights review, operational switches, and intended use** separate, then ask for a reasoned allow/deny decision before a step runs.
